@@ -1,0 +1,71 @@
+
+.sneakers {
+    max-width: 975px;
+    margin: 0 auto;
+}
+.items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: space-around;
+}
+.item-wrapper {
+    width: 210px;
+    height: 260px;
+    border: 1px solid #F3F3F3;
+    border-radius: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.item {
+    width: 150px;
+    height: 196px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+}
+.item-wrapper:hover {
+    box-shadow: 0px 14px 30px 0px rgba(0, 0, 0, 0.15);
+}
+.item__up img {
+    width: 133px;
+}
+.item__up p {
+    font-size: 14px;
+}
+.item_down {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;    
+}
+.item_down-left h2 {
+    font-weight: 500;
+    font-size: 11px;
+    color: #BDBDBD;
+}
+.item_down-left h1 {
+    font-size: 14px;
+}
+.item_down-right {
+    width: 32px;
+    height: 32px;   
+    border: 1px solid #F2F2F2;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+/* .unlilked {
+    width: 32px;
+    height: 32px;
+    padding: 9px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 7px;
+    border: 1px solid #dedadad7;
+    cursor: pointer;
+} */
